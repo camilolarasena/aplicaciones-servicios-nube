@@ -1,0 +1,79 @@
+header{
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin: 0;
+    font-size: 2rem;
+}
+header p{
+    margin: 0;
+    font-size: 0.9rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .3s;
+}
+nav ul li a:hover{
+    color: #ffc107;
+}
+/* Carrito */
+header div:last-child a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: .3s;
+}
+header div:last-child a:hover{
+    background: white;
+    color: #0d6efd;
+}
+
+
+
+
+
+
+#titulo1 {
+    color: #eff1f2;
+}
+#titulo2 {
+    color: #c10d76;
+}
+
+#descripcion1, #descripcion2 {
+    color: #f7f4f4;
+    font-size: 18px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card{
+    border-radius:10px;
+}
